@@ -54,3 +54,11 @@
 .home-refined #possibilities .audience-top>p{color:#b5c8d7}
 .home-refined #possibilities .audience-grid li{color:#d0dce5}
 .home-refined #possibilities .audience-grid article>a{color:#a5e1e5}
+
+/* Client-supplied leadership photo and a little more breathing room. */
+.hero-atmosphere:before{background-image:url('hero-leadership.jpg');background-position:center 43%;opacity:.5}
+.hero-atmosphere .new-hero{padding-top:75px;padding-bottom:85px}
+@media(min-width:1101px){.hero-atmosphere .new-hero{min-height:570px;padding-block:65px 80px}}
+@media(min-width:1101px) and (max-height:800px){.hero-atmosphere .new-hero{min-height:calc(100svh - 220px);padding-block:40px 48px}}
+@media(max-width:1100px) and (min-width:701px){.hero-atmosphere .new-hero{padding-block:65px 80px}}
+@media(max-width:700px){.hero-atmosphere .new-hero{padding-block:60px 70px}.hero-atmosphere:before{background-position:57% top;opacity:.35}}
