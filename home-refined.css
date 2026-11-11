@@ -38,3 +38,10 @@
  .small-rule{margin-bottom:9px}
  .demo-strip>.wrap{padding-block:16px}
 }
+
+/* Atmospheric hero: full-bleed photography fades into the Dignify navy. */
+.hero-atmosphere{position:relative;isolation:isolate;overflow:hidden;background:#101a25}.hero-atmosphere:before{content:'';position:absolute;inset:0;z-index:-2;background:url('team.jpg') center 46%/cover no-repeat;opacity:.45;filter:saturate(.55)}.hero-atmosphere:after{content:'';position:absolute;inset:0;z-index:-1;background:linear-gradient(90deg,#101a25ed 0%,#0f263cd6 45%,#101a25f0 76%),linear-gradient(0deg,#101a25 0%,transparent 50%,#101a2560 100%)}.hero-atmosphere .new-hero{position:relative;align-items:center;padding-block:65px 75px}.hero-atmosphere .solution-panel{padding-top:0}.hero-atmosphere .new-hero-story{padding-bottom:25px}.hero-atmosphere .solution-item{border-color:#45627b75}.hero-atmosphere .solution-item p{color:#bdcbd5}.hero-atmosphere .new-hero .intro{color:#c0cdd7}
+@media(min-width:1101px){.hero-atmosphere .new-hero{min-height:540px;padding-block:50px 65px}.hero-atmosphere .new-hero-story{padding-bottom:30px}}
+@media(min-width:1101px) and (max-height:800px){.hero-atmosphere .new-hero{min-height:calc(100svh - 220px);padding-block:32px 40px}.hero-atmosphere .new-hero-story{padding-bottom:20px}}
+@media(max-width:1100px) and (min-width:701px){.hero-atmosphere .new-hero{padding-block:50px 65px}}
+@media(max-width:700px){.hero-atmosphere .new-hero{padding-block:50px 60px;gap:45px}.hero-atmosphere .new-hero-story{padding-bottom:0}.hero-atmosphere:before{background-position:35% top;opacity:.3}.hero-atmosphere:after{background:linear-gradient(180deg,#101a25bd,#101a25eb 48%,#101a25)} }
