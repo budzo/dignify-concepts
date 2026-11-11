@@ -73,3 +73,8 @@
 @media(max-width:700px){.audience-photo{height:220px}.audience-content{padding:28px}}
 
 .audience-grid article:first-child .audience-photo{object-position:center 45%}.audience-grid article:nth-child(2) .audience-photo{object-position:center 45%}
+
+/* Match the light concept's photo strength with a dark blue tint. */
+.home-refined:not(.light-theme) .hero-atmosphere:before{opacity:.75;filter:saturate(.75)}
+.home-refined:not(.light-theme) .hero-atmosphere:after{background:linear-gradient(90deg,#101a25d9 0%,#0f263cb3 45%,#101a25db 100%),linear-gradient(0deg,#101a2580,transparent 50%)}
+@media(max-width:700px){.home-refined:not(.light-theme) .hero-atmosphere:after{background:linear-gradient(180deg,#101a25cc,#101a25c7 48%,#101a25e6)}}
