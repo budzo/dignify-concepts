@@ -78,3 +78,15 @@
 .home-refined:not(.light-theme) .hero-atmosphere:before{opacity:.75;filter:saturate(.75)}
 .home-refined:not(.light-theme) .hero-atmosphere:after{background:linear-gradient(90deg,#101a25d9 0%,#0f263cb3 45%,#101a25db 100%),linear-gradient(0deg,#101a2580,transparent 50%)}
 @media(max-width:700px){.home-refined:not(.light-theme) .hero-atmosphere:after{background:linear-gradient(180deg,#101a25cc,#101a25c7 48%,#101a25e6)}}
+
+/* Culture Operating System: photographic feature with a clear checklist. */
+.home-refined .cos-feature{isolation:isolate;position:relative;background:#101a25;padding-block:85px;min-height:530px;display:flex;align-items:center}
+.cos-feature:before,.cos-feature:after{content:'';position:absolute;inset:0;z-index:-1;pointer-events:none}
+.cos-feature:before{background:url('high-performance-teams.jpg') center center/cover no-repeat;opacity:.75;filter:saturate(.75)}
+.cos-feature:after{background:linear-gradient(90deg,#101a25f0 0%,#101a25dc 36%,#0f263c80 70%,#101a2570 100%)}
+.cos-feature-copy{max-width:650px;width:57%}.home-refined .cos-feature .eyebrow{color:#89d2d8;margin-bottom:24px}.home-refined .cos-feature h2{font-size:clamp(36px,4.3vw,60px);line-height:1.08;letter-spacing:-.045em;margin-bottom:30px;color:#edf3f7}.cos-feature-intro{font-size:18px;line-height:1.55;color:#d4e2eb;max-width:570px;margin-bottom:25px}.cos-checklist{list-style:none;padding:0;margin:0;display:grid;gap:15px}.cos-checklist li{display:flex;align-items:center;gap:14px;font-size:20px;font-weight:500;color:#edf3f7}.cos-checklist span{display:grid;place-items:center;flex:0 0 30px;height:30px;background:#0f4b8f;color:white;font-size:26px;line-height:1}
+.home-refined.light-theme .cos-feature{background:#edf4f8}.light-theme .cos-feature:after{background:linear-gradient(90deg,#f2f7fbf0 0%,#edf4f8dc 36%,#edf4f850 70%,#edf4f830 100%)}.home-refined.light-theme .cos-feature h2{color:#15364e}.home-refined.light-theme .cos-feature .eyebrow{color:#0f4b8f}.light-theme .cos-feature-intro{color:#405d72}.light-theme .cos-checklist li{color:#15364e}
+@media(max-width:1000px){.cos-feature-copy{width:62%}.home-refined .cos-feature{padding-block:65px;min-height:500px}.cos-feature-intro{font-size:16px}.cos-checklist li{font-size:18px}}
+@media(max-width:700px){.home-refined .cos-feature{min-height:0;padding-block:60px}.cos-feature-copy{width:100%;max-width:480px}.cos-feature:before{background-position:70% center;opacity:.4}.cos-feature:after{background:#101a25bc}.light-theme .cos-feature:after{background:#edf4f8cc}.home-refined .cos-feature h2{font-size:38px}.cos-feature-intro{max-width:390px}}
+
+.cos-checklist svg{width:30px;height:30px;flex:0 0 30px;color:#89d2d8}.light-theme .cos-checklist svg{color:#0f4b8f}
