@@ -71,3 +71,5 @@
 .home-refined #possibilities .audience-content>a{font-size:12px;line-height:1.6;color:#a5e1e5;border-bottom:1px solid #89d2d850;padding-bottom:6px;display:inline-block;align-self:start;margin-top:auto}
 @media(max-width:1100px) and (min-width:701px){.audience-photo{height:170px}.audience-content{padding:24px}}
 @media(max-width:700px){.audience-photo{height:220px}.audience-content{padding:28px}}
+
+.audience-grid article:first-child .audience-photo{object-position:center 45%}.audience-grid article:nth-child(2) .audience-photo{object-position:center 45%}
