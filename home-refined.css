@@ -45,3 +45,12 @@
 @media(min-width:1101px) and (max-height:800px){.hero-atmosphere .new-hero{min-height:calc(100svh - 220px);padding-block:32px 40px}.hero-atmosphere .new-hero-story{padding-bottom:20px}}
 @media(max-width:1100px) and (min-width:701px){.hero-atmosphere .new-hero{padding-block:50px 65px}}
 @media(max-width:700px){.hero-atmosphere .new-hero{padding-block:50px 60px;gap:45px}.hero-atmosphere .new-hero-story{padding-bottom:0}.hero-atmosphere:before{background-position:35% top;opacity:.3}.hero-atmosphere:after{background:linear-gradient(180deg,#101a25bd,#101a25eb 48%,#101a25)} }
+/* Explicit audience colors override the earlier Concept 01 section treatment. */
+.depth.home-refined #possibilities{margin-top:0;background:#e7f0ef;color:#163b50}
+.home-refined #possibilities .center-heading .eyebrow{color:#0f4b8f}
+.home-refined #possibilities .center-heading h2{color:#163b50}
+.home-refined #possibilities .center-heading>p:last-child{color:#465f6b}
+.home-refined #possibilities .audience-grid h3{color:#edf3f7}
+.home-refined #possibilities .audience-top>p{color:#b5c8d7}
+.home-refined #possibilities .audience-grid li{color:#d0dce5}
+.home-refined #possibilities .audience-grid article>a{color:#a5e1e5}
