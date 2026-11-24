@@ -14,3 +14,24 @@ body.depth.light-theme{background:#f8fafb;color:#15364e;--ink:#15364e;--paper:#f
 
 /* Full-bleed footer background, with content aligned to the page grid. */
 body.depth.light-theme footer.wrap{width:100%;max-width:none;margin-inline:0;padding-inline:max(6%,calc((100% - 1240px)/2));box-sizing:border-box}
+
+/* Consistent approved homepage navigation and footer on every light page. */
+body.depth.light-theme header.wrap{width:min(1240px,88%);height:105px;min-height:0;flex-wrap:nowrap;padding-block:0}
+.light-theme header .logo{width:135px}.light-theme header nav{order:initial;flex-basis:auto;justify-content:initial;gap:25px;font-size:12px}.light-theme header .nav-cta{margin-left:15px}
+.light-theme .snapshot-strip{background:#0f4b8f;color:white}.light-theme .snapshot-strip>.wrap{width:min(1240px,88%);display:flex;justify-content:space-between;align-items:center;gap:30px;padding-block:17px}.light-theme .snapshot-strip p{font-size:13px;margin:0;color:#edf6ff}.light-theme .snapshot-strip a{font-size:13px;font-weight:600;display:flex;gap:14px;align-items:center;white-space:nowrap}.light-theme .snapshot-strip a span{font-size:20px;color:#89d2d8}
+.light-theme footer .footer-newsletter h3{color:#15364e}.light-theme footer .newsletter-input-row{background:white;border-color:#a3bdce}
+@media(min-width:701px) and (max-width:1100px){body.depth.light-theme header.wrap{height:100px;flex-wrap:wrap;padding-block:18px;gap:15px}.light-theme header nav{order:3;flex-basis:100%;justify-content:flex-end;gap:25px}.light-theme header .nav-cta{margin-left:auto}}
+@media(max-width:700px){body.depth.light-theme header.wrap{height:85px;min-height:0}.light-theme header .logo{width:120px}.light-theme header nav{background:#f3f8fb;gap:22px;justify-content:initial}.light-theme header .nav-cta{display:none}.light-theme .snapshot-strip>.wrap{gap:15px;padding-block:14px}.light-theme .snapshot-strip p{font-size:12px;max-width:190px}.light-theme .snapshot-strip a{font-size:12px;gap:14px}}
+
+.light-theme .intro{color:#405d72}
+
+/* Dignify's brand check replaces directional up-right arrows. */
+.dignify-check{display:inline-block;width:1em;height:1em;vertical-align:-.12em;flex-shrink:0;color:inherit}
+.button .dignify-check,.newsletter-input-row button .dignify-check{width:20px;height:20px}.snapshot-strip .dignify-check{width:18px;height:18px}.solution-item .dignify-check,.audience-top .dignify-check{width:20px;height:20px}.text-link .dignify-check,.footer-meeting .dignify-check,.team-snapshot-link .dignify-check{margin-left:5px}
+
+/* Put a face to the people-first approach in the hero. */
+.hero-founder{display:flex;align-items:center;gap:18px;margin-top:30px;padding-top:24px;border-top:1px solid #a8becd80;max-width:450px}.hero-founder>img{width:88px;height:88px;object-fit:cover;object-position:center 25%;border-radius:50%;flex-shrink:0;border:3px solid #fff;box-shadow:0 0 0 1px #bad0df}.hero-founder .founder-name{font-size:15px;font-weight:600;color:#15364e;margin:0 0 7px;line-height:1.4}.founder-name span{display:block;font-size:12px;font-weight:400;color:#465f6b}.hero-founder .founder-connection{font-size:13px;line-height:1.5;color:#405d72;margin:0 0 8px}.hero-founder a{font-size:12px;color:#0f4b8f;font-weight:600}.hero-founder a span{margin-left:5px}@media(max-width:700px){.hero-founder{gap:15px;margin-top:26px}.hero-founder>img{width:76px;height:76px}}
+
+/* Give the demo strip more room in the desktop viewport. */
+@media(min-width:1101px){.light-theme.home-refined .hero-atmosphere .new-hero{padding-block:40px 48px;min-height:0}.light-theme.home-refined .hero-atmosphere .new-hero-story{padding-bottom:15px}.light-theme .solution-heading h2{font-size:clamp(30px,2.9vw,41px);line-height:1.15}}
+@media(min-width:1101px) and (max-height:800px){.light-theme.home-refined .hero-atmosphere .new-hero{padding-block:28px 32px}}
